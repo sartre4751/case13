@@ -1,0 +1,2062 @@
+<!DOCTYPE html>
+<html>
+<style>
+	@font-face {
+    font-family: 'NotoSerifKR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	background-color: black;
+  background-size: ;
+}
+
+h1{
+	position: fixed;
+	left:50px;
+	font-size: 30pt;
+	font-family: NotoSerifKR;
+	color:white;
+  z-index: 1;
+}
+
+.index{
+	position: fixed;
+	top: 80px;
+	left:50px;
+	font-size: 15pt;
+	font-family: NotoSerifKR;
+	color:white;
+}
+
+
+.return{
+	position: fixed;
+	top: 25px;
+	right:50px;
+	font-size: 15pt;
+	font-family: NotoSerifKR;
+	color:white;
+	cursor: pointer;
+}
+
+
+
+
+.switch{
+	position: fixed;
+	top: 60px;
+	right:50px;
+	font-size: 15pt;
+	font-family: NotoSerifKR;
+	color:white;
+	cursor: pointer;
+}
+
+p{
+  font-size: 15pt;
+  font-family: NotoSerifKR;
+  color: white
+}
+
+
+a { 
+	text-decoration:none;
+}
+
+a:link {
+  color : black;
+}
+
+a:visited {
+  color : black;
+}
+a:hover {
+  color : white;
+}
+/*a:active {
+  color : green;
+}
+*/
+
+.re:link {
+  color : white;
+}
+
+.re:visited {
+  color : white;
+}
+
+
+#mydiv1-1 {
+  position: absolute;
+  top:280px;
+  left:150px;
+  z-index: 100;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+
+}
+
+
+#mydiv1-2 {
+  position: absolute;
+  top:340px;
+  left:180px;
+  z-index: 99;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv1-3 {
+  position: absolute;
+  top:420px;
+  left:200px;
+  z-index: 98;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv1-4 {
+  position: absolute;
+  top:480px;
+  left:100px;
+  z-index: 97;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv1-5 {
+  position: absolute;
+  top:540px;
+  left:230px;
+  z-index: 96;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv1-6 {
+  position: absolute;
+  top:600px;
+  left:100px;
+  z-index: 95;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv1-7 {
+  position: absolute;
+  top:660px;
+  left:250px;
+  z-index: 94;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv1-8 {
+  position: absolute;
+  top:720px;
+  left:100px;
+  z-index: 93;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv1-9 {
+  position: absolute;
+  top:780px;
+  left:70px;
+  z-index: 92;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+/*----------------중앙------------*/
+
+#mydiv2-1 {
+  position: absolute;
+  top:280px;
+  left:1100px;
+  z-index: 91;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+
+}
+
+
+#mydiv2-2 {
+  position: absolute;
+  top:340px;
+  left:1100px;
+  z-index: 90;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv2-2:hover{
+	z-index: 100;
+}
+
+
+#mydiv2-3 {
+  position: absolute;
+  top:440px;
+  left:1150px;
+  z-index: 89;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv2-4 {
+  position: absolute;
+  top:480px;
+  left:1150px;
+  z-index: 88;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv2-5 {
+  position: absolute;
+  top:540px;
+  left:1050px;
+  z-index: 87;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv2-6 {
+  position: absolute;
+  top:600px;
+  left:1000px;
+  z-index: 86;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv2-7 {
+  position: absolute;
+  top:660px;
+  left:1050px;
+  z-index: 85;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv2-8 {
+  position: absolute;
+  top:720px;
+  left:1050px;
+  z-index: 84;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv2-9 {
+  position: absolute;
+  top:780px;
+  left:1250px;
+  z-index: 83;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv2-10 {
+  position: absolute;
+  top:380px;
+  left:1200px;
+  z-index: 90;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+
+#mydiv2-11 {
+  position: absolute;
+  top:550px;
+  left:1400px;
+  z-index: 100;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+
+}
+
+
+#mydiv2-12 {
+  position: absolute;
+  top:630px;
+  left:1570px;
+  z-index: 100;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv2-13 {
+  position: absolute;
+  top:750px;
+  left:1400px;
+  z-index: 79;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+/*---------------동아-------------*/
+#mydiv3-1 {
+  position: absolute;
+  top:280px;
+  left:2300px;
+  z-index: 91;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+
+}
+
+
+#mydiv3-2 {
+  position: absolute;
+  top:340px;
+  left:2350px;
+  z-index: 100;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+
+
+#mydiv3-3 {
+  position: absolute;
+  top:410px;
+  left:2300px;
+  z-index: 89;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv3-4 {
+  position: absolute;
+  top:480px;
+  left:2200px;
+  z-index: 88;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv3-5 {
+  position: absolute;
+  top:540px;
+  left:2300px;
+  z-index: 87;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv3-6 {
+  position: absolute;
+  top:600px;
+  left:2350px;
+  z-index: 86;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv3-7 {
+  position: absolute;
+  top:660px;
+  left:2300px;
+  z-index: 85;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv3-8 {
+  position: absolute;
+  top:720px;
+  left:2300px;
+  z-index: 84;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv3-9 {
+  position: absolute;
+  top:780px;
+  left:2400px;
+  z-index: 83;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv3-10 {
+  position: absolute;
+  top:380px;
+  left:2150px;
+  z-index: 90;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+/*--------4 한겨레--------*/
+
+#mydiv4-1 {
+  position: absolute;
+  top:280px;
+  left:3300px;
+  z-index: 91;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+
+}
+
+
+#mydiv4-2 {
+  position: absolute;
+  top:350px;
+  left:3400px;
+  z-index: 100;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+
+
+#mydiv4-3 {
+  position: absolute;
+  top:400px;
+  left:3300px;
+  z-index: 89;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv4-4 {
+  position: absolute;
+  top:460px;
+  left:3400px;
+  z-index: 88;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv4-5 {
+  position: absolute;
+  top:540px;
+  left:3300px;
+  z-index: 87;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv4-6 {
+  position: absolute;
+  top:600px;
+  left:3400px;
+  z-index: 86;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv4-7 {
+  position: absolute;
+  top:660px;
+  left:3350px;
+  z-index: 85;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv4-8 {
+  position: absolute;
+  top:720px;
+  left:3350px;
+  z-index: 84;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv4-9 {
+  position: absolute;
+  top:780px;
+  left:3300px;
+  z-index: 83;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv4-10 {
+  position: absolute;
+  top:380px;
+  left:3500px;
+  z-index: 90;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+
+#mydiv4-11 {
+  position: absolute;
+  top:550px;
+  left:3400px;
+  z-index: 100;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+
+}
+
+/*----------경향-------*/
+
+
+#mydiv5-1 {
+  position: absolute;
+  top:280px;
+  left:4400px;
+  z-index: 91;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+
+}
+
+
+#mydiv5-2 {
+  position: absolute;
+  top:350px;
+  left:4150px;
+  z-index: 100;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+
+
+#mydiv5-3 {
+  position: absolute;
+  top:400px;
+  left:4200px;
+  z-index: 89;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv5-4 {
+  position: absolute;
+  top:460px;
+  left:4200px;
+  z-index: 88;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv5-5 {
+  position: absolute;
+  top:540px;
+  left:4300px;
+  z-index: 87;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv5-6 {
+  position: absolute;
+  top:600px;
+  left:4350px;
+  z-index: 86;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv5-7 {
+  position: absolute;
+  top:660px;
+  left:4300px;
+  z-index: 85;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+
+#mydiv5-8 {
+  position: absolute;
+  top:720px;
+  left:4350px;
+  z-index: 84;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv5-9 {
+  position: absolute;
+  top:780px;
+  left:4300px;
+  z-index: 83;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv5-10 {
+  position: absolute;
+  top:380px;
+  left:4500px;
+  z-index: 90;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+
+#mydiv5-11 {
+  position: absolute;
+  top:550px;
+  left:4400px;
+  z-index: 100;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+
+}
+
+#mydiv5-12 {
+  position: absolute;
+  top:720px;
+  left:4350px;
+  z-index: 84;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+
+/*---------------한국----------*/
+
+#mydiv6-1 {
+  position: absolute;
+  top:280px;
+  left:5300px;
+  z-index: 91;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+
+}
+
+
+#mydiv6-2 {
+  position: absolute;
+  top:350px;
+  left:5350px;
+  z-index: 100;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+
+
+#mydiv6-3 {
+  position: absolute;
+  top:400px;
+  left:5300px;
+  z-index: 89;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv6-4 {
+  position: absolute;
+  top:460px;
+  left:5200px;
+  z-index: 88;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv6-5 {
+  position: absolute;
+  top:540px;
+  left:5300px;
+  z-index: 87;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv6-6 {
+  position: absolute;
+  top:600px;
+  left:5350px;
+  z-index: 86;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv6-7 {
+  position: absolute;
+  top:660px;
+  left:5300px;
+  z-index: 85;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv6-8 {
+  position: absolute;
+  top:720px;
+  left:5400px;
+  z-index: 84;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+
+/*---------서울---------*/
+
+#mydiv7-1 {
+  position: absolute;
+  top:280px;
+  left:6300px;
+  z-index: 91;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+
+}
+
+
+#mydiv7-2 {
+  position: absolute;
+  top:350px;
+  left:6350px;
+  z-index: 100;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv7-3 {
+  position: absolute;
+  top:400px;
+  left:6300px;
+  z-index: 89;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv7-4 {
+  position: absolute;
+  top:460px;
+  left:6250px;
+  z-index: 88;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv7-5 {
+  position: absolute;
+  top:540px;
+  left:6300px;
+  z-index: 87;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv7-6 {
+  position: absolute;
+  top:600px;
+  left:6350px;
+  z-index: 86;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv7-7 {
+  position: absolute;
+  top:660px;
+  left:6300px;
+  z-index: 85;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv7-8 {
+  position: absolute;
+  top:720px;
+  left:6400px;
+  z-index: 84;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv7-9 {
+  position: absolute;
+  top:780px;
+  left:6300px;
+  z-index: 83;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv7-10 {
+  position: absolute;
+  top:380px;
+  left:6500px;
+  z-index: 90;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+/*--------8 kbs-------*/
+
+#mydiv8-1 {
+  position: absolute;
+  top:280px;
+  left:7300px;
+  z-index: 91;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+
+}
+
+
+#mydiv8-2 {
+  position: absolute;
+  top:350px;
+  left:7350px;
+  z-index: 100;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+
+
+#mydiv8-3 {
+  position: absolute;
+  top:400px;
+  left:7300px;
+  z-index: 89;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv8-4 {
+  position: absolute;
+  top:460px;
+  left:7200px;
+  z-index: 88;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv8-5 {
+  position: absolute;
+  top:540px;
+  left:7300px;
+  z-index: 87;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv8-6 {
+  position: absolute;
+  top:600px;
+  left:7350px;
+  z-index: 86;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv8-7 {
+  position: absolute;
+  top:660px;
+  left:7300px;
+  z-index: 85;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+/*---------9 mbc----------*/
+
+#mydiv9-1 {
+  position: absolute;
+  top:280px;
+  left:8300px;
+  z-index: 91;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+
+}
+
+
+#mydiv9-2 {
+  position: absolute;
+  top:350px;
+  left:8350px;
+  z-index: 100;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+
+
+#mydiv9-3 {
+  position: absolute;
+  top:400px;
+  left:8300px;
+  z-index: 89;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv9-4 {
+  position: absolute;
+  top:460px;
+  left:8200px;
+  z-index: 88;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv9-5 {
+  position: absolute;
+  top:540px;
+  left:8300px;
+  z-index: 87;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv9-6 {
+  position: absolute;
+  top:600px;
+  left:8350px;
+  z-index: 86;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv9-7 {
+  position: absolute;
+  top:660px;
+  left:8300px;
+  z-index: 85;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+/*------------10 sbs------------*/
+
+#mydiv10-1 {
+  position: absolute;
+  top:280px;
+  left:9300px;
+  z-index: 91;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+
+}
+
+
+#mydiv10-2 {
+  position: absolute;
+  top:350px;
+  left:9150px;
+  z-index: 100;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+
+
+#mydiv10-3 {
+  position: absolute;
+  top:400px;
+  left:9300px;
+  z-index: 89;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv10-4 {
+  position: absolute;
+  top:460px;
+  left:9200px;
+  z-index: 88;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv10-5 {
+  position: absolute;
+  top:540px;
+  left:9300px;
+  z-index: 87;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv10-6 {
+  position: absolute;
+  top:600px;
+  left:9350px;
+  z-index: 86;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(-3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+
+#mydiv10-7 {
+  position: absolute;
+  top:660px;
+  left:9300px;
+  z-index: 85;
+  background-color: #f1f1f1;
+  text-align: center;  
+  border: transparent;
+  -webkit-transform: rotate(3deg);
+  border-radius: 17px;
+  font-family: NotoSerifKR;
+}
+/*-------------*/
+
+#fakediv {
+  position: absolute;
+  top:460px;
+  left:9950px;
+  z-index: 88;
+  background-color: transparent;
+  text-align: center;  
+  border: transparent;
+  color: transparent;
+}
+
+#mydivheader {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left:25px;
+  padding-right:25px;
+  cursor: pointer;
+  z-index: 10;
+  background-color: #ffffff;
+  border: 1.5px solid black;
+  border-radius: 17px;
+  font-size: 16pt;
+  color: black;
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,0.8), 0 3px 15px 0 rgba(0,0,0,0.2);
+}
+
+#mydivheader:hover{
+	background-color: grey;
+	z-index: 120;
+}
+
+#masterdiv {
+	white-space:nowrap; 
+    overflow-x: auto; }
+
+ .chosun{
+  position: absolute;
+  font-size: 17pt;
+  top:180px;
+  left:350px
+}
+
+.jungang{
+  position: absolute;
+  font-size: 17pt;
+  top:180px;
+  left:1350px
+}
+
+.donga{
+  position: absolute;
+  font-size: 17pt;
+  top:180px;
+  left:2550px
+}
+
+.hani{
+  position: absolute;
+  font-size: 17pt;
+  top:180px;
+  left:3550px	
+}
+
+.khan{
+  position: absolute;
+  font-size: 17pt;
+  top:180px;
+  left:4500px	
+}
+
+.hankook{
+  position: absolute;
+  font-size: 17pt;
+  top:180px;
+  left:5500px	
+}
+
+.seoul{
+  position: absolute;
+  font-size: 17pt;
+  top:180px;
+  left:6550px	
+}
+
+.kbs{
+  position: absolute;
+  font-size: 17pt;
+  top:180px;
+  left:7550px	
+}
+
+.mbc{
+  position: absolute;
+  font-size: 17pt;
+  top:180px;
+  left:8550px	
+}
+
+.sbs{
+  position: absolute; 
+  font-size: 17pt;
+  top:180px;
+  left:9550px	
+}
+
+
+
+
+#press {
+	white-space:nowrap; 
+    overflow-x: auto; }
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+    
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 40%;
+  z-index: 0;
+}
+</style>
+<body>
+
+<h1>사건 12</h1>
+<img src="images/12.jpg" id="bg" alt="">
+<!-- <p class="index">헤드라인을 움직여 보세요 어쩌구</p> -->
+<!-- <p class="index">원하는/눈에띄는/재미있는 헤드라인을 찾아보세요!
+다 봤으면 버튼을 눌러 언론사별로도 보세요/ 오른쪽 상단 버튼을 눌러 언론사별로 볼 수 있습니다. or 정리된 모습을 보고 싶다면..</p> -->
+<div id= press>
+<p class="chosun">조선일보</p>
+<p class="jungang">중앙일보</p>
+<p class="donga">동아일보</p>
+<p class="hani">한겨레</p>
+<p class="khan">경향신문</p>
+<p class="hankook">한국일보</p>
+<p class="seoul">서울신문</p>
+<p class="kbs">KBS</p>
+<p class="mbc">MBC</p>
+<p class="sbs">SBS</p>
+
+</div>
+<p class="return"><a href ="https://sartre4751.github.io/case_100_main/case100_main.html" class="re">돌아가기</a></p>
+<!-- <p class="switch">바꾸기</p> -->
+
+<div id="fakediv"> 
+  ...
+</div>
+
+<!-------------조선------------- -->
+<div id="masterdiv">
+<div id="mydiv1-1">
+  <div id="mydivheader"><a href="http://srchdb1.chosun.com/pdf/i_service/read_pdf.jsp?PDF=20200220A01JH1&Y=2020&M=02" target="_blank">
+이명박 17년 선고… 다시 구속 수감</a> </div>
+</div>
+
+<div id="mydiv1-2">
+  <div id="mydivheader"><a href="https://www.chosun.com/site/data/html_dir/2020/02/19/2020021902482.html" target="_blank">
+이명박 前대통령 징역 17년 선고…보석 취소, 다시 구속 </a></div>
+</div>
+
+<div id="mydiv1-3">
+  <div id="mydivheader"><a href="https://www.chosun.com/site/data/html_dir/2020/02/19/2020021902482.html" target="_blank">이명박 전 대통령, 항소심서 징역 17년 선고… 보석 취소 후 재수감</a></div>
+</div>
+
+<!-- <div id="mydiv1-4">
+  <div id="mydivheader"><a href="https://www.chosun.com/site/data/html_dir/2020/02/17/2020021702632.html" target="_blank">文대통령, 미래통합당 출범식에 축하 화환 보내</a> </div>
+</div>
+
+<div id="mydiv1-5">
+  <div id="mydivheader"><a href="https://www.chosun.com/site/data/html_dir/2020/02/16/2020021600512.html" target="_blank">브랜드뉴파티·같이오름·젊은보수… 청년 정당 3곳, 미래통합당 합류 </a></div>
+</div> -->
+<!-- 
+<div id="mydiv1-6">
+  <div id="mydivheader"><a href="https://www.chosun.com/site/data/html_dir/2020/03/20/2020032000151.html" target="_blank">錢主 김회장, 親盧인사에 20억 건넨 의혹s</a> </div>
+</div>
+
+<div id="mydiv1-7">
+  <div id="mydivheader"><a href="https://www.chosun.com/site/data/html_dir/2020/03/23/2020032303095.html" target="_blank">  "라임 사태 실체 규명해 비리 밝혀낼 것" </a></div>
+</div>
+
+<div id="mydiv1-8">
+  <div id="mydivheader"><a href="https://www.chosun.com/site/data/html_dir/2020/03/24/2020032400202.html" target="_blank">錢主 김회장 "2000억으로 제주 렌터카 쓸어버리자" </a></div>
+</div> -->
+
+
+<!-- ----------------중앙------------ -->
+
+<div id="mydiv2-1">
+  <div id="mydivheader"><a href="https://news.joins.com/article/23711411" target="_blank">
+MB정부 인사들 “사법 정의 죽었다…권력의 하수인”</a> </div>
+</div>
+
+<div id="mydiv2-2">
+  <div id="mydivheader"><a href="https://news.joins.com/article/23711396" target="_blank">
+이명박 측 “법원 결정에 납득 못 해…상고 여부 고민 중”</a></div>
+</div>
+
+<div id="mydiv2-3">
+  <div id="mydivheader"><a href="https://news.joins.com/article/23710645" target="_blank">이명박, 보석 350일 만에 재수감…항소심 선고 뒤 허공 바라봐</a></div>
+</div>
+
+<div id="mydiv2-4">
+  <div id="mydivheader"><a href="https://news.joins.com/article/23710388" target="_blank">이명박, 17년 선고에 한참 허공 바라봤다…변호인들 눈물</a> </div>
+</div>
+
+<div id="mydiv2-5">
+  <div id="mydivheader"><a href="https://news.joins.com/article/23708536" target="_blank">징역17년 MB, 보석취소에 한숨…지지자에 "고생했어, 갈게"</a></div>
+</div>
+
+
+
+<div id="mydiv2-6">
+  <div id="mydivheader"><a href="https://news.joins.com/article/23710261" target="_blank">MB 2심서 징역 17년 벌금 130억…보석 취소, 구치소 재수감</a></div>
+</div>
+
+<!-- <div id="mydiv2-7">
+  <div id="mydivheader"><a href="https://news.joins.com/article/23706326" target="_blank">9000억 라임펀드 반토막…TRS 끌어 쓴 펀드 한 푼도 못 건진다</a></div>
+</div>
+
+<div id="mydiv2-8">
+  <div id="mydivheader"><a href="https://news.joins.com/article/237037047" target="_blank">라임 결국 “상환계획 이행 못한다” </a></div>
+</div>
+
+<div id="mydiv2-9">
+  <div id="mydivheader"><a href="https://news.joins.com/article/23703132" target="_blank">[단독]라임 "상환계획 못 지켜…TRS 먼저 갚고 남은 돈 배분" </a></div>
+</div>
+ -->
+
+<!-- ----------------동아------------ -->
+
+<div id="mydiv3-1">
+  <div id="mydivheader"><a href="hhttps://www.donga.com/news/article/all/20200220/99785799/1" target="_blank">MB 2심 징역 17년… 보석 취소 재수감
+ </a> </div>
+</div>
+
+<div id="mydiv3-2">
+  <div id="mydivheader"><a href="https://www.donga.com/news/article/all/20200220/99785799/1" target="_blank">
+MB, 뇌물 8억 추가 형량 2년 늘어… 350일만에 다시 구치소로
+ </a></div>
+</div>
+<!-- 
+<div id="mydiv3-3">
+  <div id="mydivheader"><a href="https://www.donga.com/news/Politics/article/all/20200220/99788230/1" target="_blank">통합당 출범 후 첫 지지율 32.7%…민주당과 8.4%p 격차</a></div>
+</div>
+
+<div id="mydiv3-4">
+  <div id="mydivheader"><a href="https://www.donga.com/news/article/all/20200228/99924407/1" target="_blank">안철수계 김삼화·김수민·신용현, 미래통합당 입당 결정 </a> </div>
+</div>
+
+<div id="mydiv3-5">
+  <div id="mydivheader"><a href="https://www.donga.com/news/Politics/article/all/20200217/99743708/2" target="_blank">미래통합당, 공식 로고와 상징색 ‘해피핑크’ 공개</a></div>
+</div>
+
+<div id="mydiv3-6">
+  <div id="mydivheader"><a href="https://www.donga.com/news/Politics/article/all/20200217/99734128/1" target="_blank">안철수 “탄핵당한 당 찍겠나, 新적폐 찍겠나”</a> </div>
+</div>
+
+<div id="mydiv3-7">
+  <div id="mydivheader"><a href="https://www.donga.com/news/Politics/article/all/20200218/99752683/1" target="_blank">총선 58일 앞두고 정권심판 합심… ‘도로 새누리당’ 극복이 과제</a></div>
+</div> -->
+
+<!-- <div id="mydiv3-8">
+  <div id="mydivheader"><a href="https://www.donga.com/news/Society/article/all/20200228/99916349/1" target="_blank">신천지피해자연대 “정부조사 방해” 이만희 고발</a> </div>
+</div> -->
+
+
+<!-- ----------------4 한겨레------------ -->
+
+<div id="mydiv4-1">
+  <div id="mydivheader"><a href="https://www.hani.co.kr/arti/society/society_general/928836.html" target="_blank">
+[포토] 재수감 된 이명박 전 대통령 법정 출석 현장</a> </div>
+</div>
+
+<div id="mydiv4-2">
+  <div id="mydivheader"><a href="https://www.hani.co.kr/arti/society/society_general/928816.html" target="_blank">
+[속보] 법원 “다스는 MB 것” 형량 늘려…징역 17년 재수감</a></div>
+</div>
+
+<div id="mydiv4-3">
+  <div id="mydivheader"><a href="https://www.hani.co.kr/arti/society/society_general/929099.html" target="_blank">
+MB 형량 늘린 재판부, 뇌물·횡령액 증가한 이재용엔?
+</a> </div>
+</div>
+
+<div id="mydiv4-4">
+  <div id="mydivheader"><a href="https://www.hani.co.kr/arti/opinion/editorial/928862.html" target="_blank">
+[사설] 국민 속인 대가 치르는 MB, 이제라도 참회를</a></div>
+</div>
+
+<!-- <div id="mydiv4-4">
+  <div id="mydivheader"><a href="https://www.hani.co.kr/arti/opinion/column/929390.html" target="_blank">
+[한겨레 프리즘] '한국판 골드만삭스'라는 헛된 꿈</a></div>
+</div> -->
+
+<!-- <div id="mydiv4-5">
+  <div id="mydivheader"><a href="https://www.hani.co.kr/arti/area/capital/929746.html" target="_blank">
+이재명, 신천지 신도 3만3천여명 명단 직접 확보 “수도권 확산</a> </div>
+</div>
+
+<div id="mydiv4-6">
+  <div id="mydivheader"><a href="https://www.hani.co.kr/arti/society/religious/929179.html" target="_blank">
+'신천지' 이만희 총회장 “코로나19 병마 사건은 마귀의 짓”</a></div>
+</div>
+
+
+<div id="mydiv4-7">
+  <div id="mydivheader"><a href="https://www.hani.co.kr/arti/society/society_general/930110.html" target="_blank">
+“신도 수 숨겨 역학조사 방해”…이만희 신천지 총회장 검찰에 고발당해
+</a></div>
+</div>
+ -->
+
+
+<!-- ----------------5 경향------------ -->
+
+
+
+<div id="mydiv5-1">
+  <div id="mydivheader"><a href="http://news.khan.co.kr/kh_news/khan_art_view.html?artid=202002192157005&code=940301" target="_blank">
+이명박 재수감…2심 징역 17년</a> </div>
+</div>
+
+<div id="mydiv5-2">
+  <div id="mydivheader"><a href="http://news.khan.co.kr/kh_news/khan_art_view.html?artid=202002191925001&code=940100" target="_blank">
+이명박 2심 ‘징역 17년’에도 직권남용죄는 무죄…왜?</a> </div>
+</div>
+
+<div id="mydiv5-3">
+  <div id="mydivheader"><a href="http://news.khan.co.kr/kh_news/khan_art_view.html?artid=202002191439011&code=940100" target="_blank">
+[속보]‘다스 의혹’ 이명박 2심 징역 17년···다시 구속 수감
+</a> </div>
+</div>
+
+<div id="mydiv5-4">
+  <div id="mydivheader"><a href="http://news.khan.co.kr/kh_news/khan_art_view.html?artid=202002192130005&code=940301" target="_blank">
+다스 횡령 5억 추가 ‘실소유’ 인정…삼성 뇌물도 61억 → 89억</a> </div>
+</div>
+
+<!-- <div id="mydiv5-5">
+  <div id="mydivheader"><a href="http://news.khan.co.kr/kh_news/khan_art_view.html?art_id=202002202028005" target="_blank">
+ [전성인의 경제노트]사모펀드 사태, 현안 대응과 개선 방향 </a> </div>
+</div> -->
+<!-- 
+<div id="mydiv5-6">
+  <div id="mydivheader"><a href="http://news.khan.co.kr/kh_news/khan_art_view.html?art_id=202002202209005" target="_blank">
+ 대구 선별진료소 갔더니 “대기시간 장담 못해”…시가지 텅텅 </a> </div>
+</div>
+
+<div id="mydiv5-7">
+  <div id="mydivheader"><a href="http://news.khan.co.kr/kh_news/khan_art_view.html?art_id=202002212112005 " target="_blank">
+방역망 밖 감염자 1명이 일으킨 연쇄효과…전방위로 퍼졌다 </a> </div>
+</div>
+
+<div id="mydiv5-8">
+  <div id="mydivheader"><a href="http://news.khan.co.kr/kh_news/khan_art_view.html?art_id=202002202138005 " target="_blank">
+ 특정 지역·종교·집단 혐오 ‘카더라’…“코로나19 공포 키우는 부채질 그만”</a> </div>
+</div> -->
+
+<!-- <div id="mydiv5-9">
+  <div id="mydivheader"><a href="http://news.khan.co.kr/kh_news/khan_art_view.html?art_id=202001070600025 " target="_blank">
+ [경향이 찍은 오늘]1월3일 추미애 장관 “가장 힘들고 어렵다 했던···”</a> </div>
+</div> -->
+
+<!-- ----------------6 한국------------ -->
+<div id="mydiv6-1">
+  <div id="mydivheader"><a href="https://www.hankookilbo.com/News/Read/202002191705749910"target="_blank">
+항소심서 추가로 인정된 ‘삼성 뇌물 27억원’ 치명타</a> </div>
+</div>
+
+<!-- <div id="mydiv6-2">
+  <div id="mydivheader"><a href="https://www.hankookilbo.com/News/Read/202002181234385908" target="_blank">
+'핑크 넥타이'로 패션까지 통합한 미래통합당 의원들</a></div>
+</div> -->
+<!-- 
+<div id="mydiv6-3">
+  <div id="mydivheader"><a href="hhttps://www.hankookilbo.com/News/Read/202002201782362035" target="_blank">라임사태 원인 따지자… 윤석헌 금감원장 “주된 책임은 라임”/a></div>
+</div>
+
+<div id="mydiv6-4">
+  <div id="mydivheader"><a href="https://www.hankookilbo.com/News/Read/202002191716713088" target="_blank">검찰 라임ㆍ신한금투 압수수색…수사 급물살 타나</a> </div>
+</div>
+
+<div id="mydiv6-5">
+  <div id="mydivheader"><a href="https://www.hankookilbo.com/News/Read/202002191675099166" target="_blank">은성수 “금감원장 전결로 금융사 CEO 징계 논란...제도 개선 고민해보겠다”</a> </div>
+</div>
+
+<div id="mydiv6-6">
+  <div id="mydivheader"><a href="https://www.hankookilbo.com/News/Read/202002141150780205" target="_blank">금융당국 사모펀드 개선안 발표… “비유동자산 많으면 개방형펀드 설정 금지”</a></div>
+</div>
+
+<div id="mydiv6-7">
+  <div id="mydivheader"><a href="https://www.hankookilbo.com/News/Read/202002061730376334" target="_blank">라임펀드 손실 규모 얼마일까? 14일 예상 피해액 발표</a> </div>
+</div>
+
+<div id="mydiv6-8">
+  <div id="mydivheader"><a href="http://news.khan.co.kr/kh_news/khan_art_view.html?art_id=202002232125015" target="_blank">라임 펀드 손실액 1조2000억+ α…투자자 절반 ‘60대 이상’</a> </div>
+</div> -->
+
+<!-- ----------------7 서울------------ -->
+
+<div id="mydiv7-1">
+  <div id="mydivheader"><a href="http://www.seoul.co.kr/news/newsView.php?id=20200219500088" target="_blank">
+보석 허가한 판사가 이명박 재구속…형량도 2년 증가 </a> </div>
+</div>
+
+<div id="mydiv7-2">
+  <div id="mydivheader"><a href="http://www.seoul.co.kr/news/newsView.php?id=20200219800031" target="_blank">
+ 보석 취소로 다시 구속수감된 이명박 전 대통령
+</a></div>
+</div>
+
+<div id="mydiv7-3">
+  <div id="mydivheader"><a href="http://www.seoul.co.kr/news/newsView.php?id=20200219800031" target="_blank">미소로 출석했다 재수감 된 이명박 “고생했어. 갈게”
+</a></div>
+</div>
+
+<div id="mydiv7-4">
+  <div id="mydivheader"><a href="http://www.seoul.co.kr/news/newsView.php?id=20200220001009" target="_blank">이명박 변호인 “재판부 판단 의아…MB 답답해하셔”
+</a> </div>
+</div>
+
+<div id="mydiv7-5">
+  <div id="mydivheader"><a href="http://www.seoul.co.kr/news/newsView.php?id=20200220001009" target="_blank">보석 350일 만에…이명박, 다시 수감</a> </div>
+</div>
+
+<div id="mydiv7-6">
+  <div id="mydivheader"><a href="http://www.seoul.co.kr/news/newsView.php?id=20200220001009" target="_blank">2심도 “다스는 MB 것”… 뇌물 8억 늘고 형량 2년 늘었다</a> </div> 
+</div>
+
+ <div id="mydiv7-7">
+  <div id="mydivheader"><a href="http://www.seoul.co.kr/news/newsView.php?id=20200224500119" target="_blank">이명박 대법원에 상고 “전면 무죄 주장”</a> </div>
+</div>
+
+<!-- <div id="mydiv7-8">
+  <div id="mydivheader"><a href="https://www.seoul.co.kr/news/newsView.php?id=20200227500097" target="_blank">이명박 대법원에 상고 “전면 무죄 주장”</a> </div>
+</div>
+ -->
+<!-- <div id="mydiv7-9">
+  <div id="mydivheader"><a href="http://www.seoul.co.kr/news/newsView.php?id=20200219004022" target="_blank">따로 자리, 따로 인사… 정병국 “우린, 같이 만든 사람들” 쓴소리</a> </div> 
+</div> -->
+<!-- 
+<div id="mydiv7-10">
+  <div id="mydivheader"><a href="http://www.munhwa.com/news/view.html?no=20200119MW192816526462" target="_blank">'윤석열 사단’ 물갈이될까… 추미애發 인사태풍에 숨죽인 검찰</a> </div> 
+</div>
+ -->
+
+<!-- ----------------8 kbs------------ -->
+<div id="mydiv8-1">
+  <div id="mydivheader"><a href="http://news.kbs.co.kr/news/view.do?ncd=4384723" target="_blank">
+‘다스 횡령·삼성 뇌물’ 혐의 MB, 항소심서 징역 17년…재수감
+</a> </div>
+</div>
+
+<div id="mydiv8-2">
+  <div id="mydivheader"><a href="http://news.kbs.co.kr/news/view.do?ncd=4384663" target="_blank">
+[현장영상] 지지자와 일일이 악수한 이명박…항소심서 “법정구속”</a></div>
+</div>
+
+<div id="mydiv8-3">
+  <div id="mydivheader"><a href="http://news.kbs.co.kr/news/view.do?ncd=4385110" target="_blank"> MB, 항소심서 징역 17년…‘삼성 뇌물’등 뇌물 94억 원 인정</a></div>
+</div>
+
+<div id="mydiv8-4">
+  <div id="mydivheader"><a href="http://news.kbs.co.kr/news/view.do?ncd=4384959" target="_blank">MB, 항소심서 징역 17년·벌금 130억 원…보석 취소·재수감</a> </div>
+</div>
+<!-- 
+<div id="mydiv8-5">
+  <div id="mydivheader"><a href="https://news.kbs.co.kr/news/view.do?ncd=4379428" target="_blank">사모펀드, 금융권 탐욕과 무책임은 ‘현재 진행중’</a> </div>
+</div>
+
+<div id="mydiv8-6">
+  <div id="mydivheader"><a href="https://news.kbs.co.kr/news/view.do?ncd=4379417" target="_blank">라임자산운용 “상환계획 이행 어려워”…투자자에 통보</a> </div> 
+</div> -->
+
+<!--  <div id="mydiv8-7">
+  <div id="mydivheader"><a href="https://news.kbs.co.kr/news/view.do?ncd=4390106" target="_blank">신천지 신도 엄마 확진됐는데…자녀 검사 안내 못 받아
+</a> </div>
+</div> -->
+<!-- ----------------9 mbc------------ -->
+<div id="mydiv9-1">
+  <div id="mydivheader"><a href="https://imnews.imbc.com/replay/2020/nw1700/article/5662779_32510.html" target="_blank">
+이명박 전 대통령, 항소심서 징역 17년·재구속
+</a> </div>
+</div>
+
+<div id="mydiv9-2">
+  <div id="mydivheader"><a href="https://imnews.imbc.com/replay/2020/nw1400/article/5662717_32503.html" target="_blank">
+이명박 전 대통령 항소심도 유죄…'징역 17년</a></div>
+</div>
+
+<div id="mydiv9-3">
+  <div id="mydivheader"><a href="https://imnews.imbc.com/news/2020/society/article/5664740_32633.html" target="_blank">'징역 17년' 이명박 전 대통령 상고 "전면 무죄 주장"</a></div>
+</div>
+
+<div id="mydiv9-4">
+  <div id="mydivheader"><a href="https://imnews.imbc.com/replay/2020/nwdesk/article/5661933_32524.html" target="_blank"> 황교안 실수 연발, 당명이 헷갈려… / 통합 잔칫날…유승민은 안 왔다</a> </div>
+</div>
+
+<div id="mydiv9-5">
+  <div id="mydivheader"><a href="https://imnews.imbc.com/replay/2020/nwdesk/article/5662850_32524.html" target="_blank">"다스 MB 것 맞고 삼성 뇌물 늘어"…다시 법정구속</a></div>
+</div>
+<!-- 
+<div id="mydiv9-6">
+  <div id="mydivheader"><a href="https://imnews.imbc.com/news/2020/politics/article/5661890_32626.html" target="_blank">"다스 MB 것 맞고 삼성 뇌물 늘어"…다시 법정구속</a> </div>
+</div> -->
+<!-- 
+<div id="mydiv9-7">
+  <div id="mydivheader"><a href="https://imnews.imbc.com/replay/2020/nwdesk/article/5664367_32524.html" target="_blank">독특한 포교 방식…나도 모르는 사이 접촉?</a></div>
+</div>
+ -->
+<!-- ----------------10 sbs------------ -->
+<div id="mydiv10-1">
+  <div id="mydivheader"><a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1005656337&plink=SEARCH&cooper=SBSNEWSSEARCH" target="_blank">
+징역 17년 선고 받고 재수감된 MB…마지막으로 남긴 말이</a> </div>
+</div>
+
+
+
+<div id="mydiv10-2">
+  <div id="mydivheader"><a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1005652489" target="_blank">보수 분열 3년 만에 미래통합당 출범…총선 앞 '정권 심판' 단일대오</a></div>
+</div>
+
+<div id="mydiv10-3">
+  <div id="mydivheader"><a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1005656323&plink=SEARCH&cooper=SBSNEWSSEARCH" target="_blank">이명박 전 대통령, 보석 350일 만에 구치소 재수감</a> </div>
+</div>
+
+<div id="mydiv10-4">
+  <div id="mydivheader"><a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1005666206&plink=SEARCH&cooper=SBSNEWSSEARCH" target="_blank">이명박 '보석 취소 결정 불복' 대법원에 재항고…"즉시 석방" 요청</a> </div>
+</div>
+
+
+<div id="mydiv10-5">
+  <div id="mydivheader"><a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1005656875&plink=SEARCH&cooper=SBSNEWSSEARCH" target="_blank">'2심 징역 17년' MB 재구속…자리 못 뜬 채 침통</a> </div>
+</div>
+
+<!-- <div id="mydiv10-6">
+  <div id="mydivheader"><a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1005644068" target="_blank">
+나쁘거나 무책임하거나…라임-대신증권 녹취에서 나타난 부실 '은폐 의혹'</a></div>
+</div> -->
+</div>
+<script>	
+dragElement(document.getElementById("mydiv1-1"));
+dragElement(document.getElementById("mydiv1-2"));
+dragElement(document.getElementById("mydiv1-3"));
+dragElement(document.getElementById("mydiv1-4"));
+dragElement(document.getElementById("mydiv1-5"));
+dragElement(document.getElementById("mydiv1-6"));
+dragElement(document.getElementById("mydiv1-7"));
+dragElement(document.getElementById("mydiv1-8"));
+dragElement(document.getElementById("mydiv1-9"));
+
+dragElement(document.getElementById("mydiv2-1"));
+dragElement(document.getElementById("mydiv2-2"));
+dragElement(document.getElementById("mydiv2-3"));
+dragElement(document.getElementById("mydiv2-4"));
+dragElement(document.getElementById("mydiv2-5"));
+dragElement(document.getElementById("mydiv2-6"));
+dragElement(document.getElementById("mydiv2-7"));
+dragElement(document.getElementById("mydiv2-8"));
+dragElement(document.getElementById("mydiv2-9"));
+dragElement(document.getElementById("mydiv2-10"));
+dragElement(document.getElementById("mydiv2-11"));
+dragElement(document.getElementById("mydiv2-12"));
+dragElement(document.getElementById("mydiv2-13"));
+
+dragElement(document.getElementById("mydiv3-1"));
+dragElement(document.getElementById("mydiv3-2"));
+dragElement(document.getElementById("mydiv3-3"));
+dragElement(document.getElementById("mydiv3-4"));
+dragElement(document.getElementById("mydiv3-5"));
+dragElement(document.getElementById("mydiv3-6"));
+dragElement(document.getElementById("mydiv3-7"));
+dragElement(document.getElementById("mydiv3-8"));
+dragElement(document.getElementById("mydiv3-9"));
+dragElement(document.getElementById("mydiv3-10"));
+
+dragElement(document.getElementById("mydiv4-1"));
+dragElement(document.getElementById("mydiv4-2"));
+dragElement(document.getElementById("mydiv4-3"));
+dragElement(document.getElementById("mydiv4-4"));
+dragElement(document.getElementById("mydiv4-5"));
+dragElement(document.getElementById("mydiv4-6"));
+dragElement(document.getElementById("mydiv4-7"));
+dragElement(document.getElementById("mydiv4-8"));
+dragElement(document.getElementById("mydiv4-9"));
+dragElement(document.getElementById("mydiv4-10"));
+dragElement(document.getElementById("mydiv4-11"));
+
+dragElement(document.getElementById("mydiv5-1"));
+dragElement(document.getElementById("mydiv5-2"));
+dragElement(document.getElementById("mydiv5-3"));
+dragElement(document.getElementById("mydiv5-4"));
+dragElement(document.getElementById("mydiv5-5"));
+dragElement(document.getElementById("mydiv5-6"));
+dragElement(document.getElementById("mydiv5-7"));
+dragElement(document.getElementById("mydiv5-8"));
+dragElement(document.getElementById("mydiv5-9"));
+dragElement(document.getElementById("mydiv5-10"));
+dragElement(document.getElementById("mydiv5-11"));
+dragElement(document.getElementById("mydiv5-12"));
+
+dragElement(document.getElementById("mydiv6-1"));
+dragElement(document.getElementById("mydiv6-2"));
+dragElement(document.getElementById("mydiv6-3"));
+dragElement(document.getElementById("mydiv6-4"));
+dragElement(document.getElementById("mydiv6-5"));
+dragElement(document.getElementById("mydiv6-6"));
+dragElement(document.getElementById("mydiv6-7"));
+
+dragElement(document.getElementById("mydiv7-1"));
+dragElement(document.getElementById("mydiv7-2"));
+dragElement(document.getElementById("mydiv7-3"));
+dragElement(document.getElementById("mydiv7-4"));
+dragElement(document.getElementById("mydiv7-5"));
+dragElement(document.getElementById("mydiv7-6"));
+dragElement(document.getElementById("mydiv7-7"));
+dragElement(document.getElementById("mydiv7-8"));
+dragElement(document.getElementById("mydiv7-9"));
+dragElement(document.getElementById("mydiv7-10"));
+
+dragElement(document.getElementById("mydiv8-1"));
+dragElement(document.getElementById("mydiv8-2"));
+dragElement(document.getElementById("mydiv8-3"));
+dragElement(document.getElementById("mydiv8-4"));
+dragElement(document.getElementById("mydiv8-5"));
+dragElement(document.getElementById("mydiv8-6"));
+dragElement(document.getElementById("mydiv8-7"));
+
+dragElement(document.getElementById("mydiv9-1"));
+dragElement(document.getElementById("mydiv9-2"));
+dragElement(document.getElementById("mydiv9-3"));
+dragElement(document.getElementById("mydiv9-4"));
+dragElement(document.getElementById("mydiv9-5"));
+
+dragElement(document.getElementById("mydiv10-1"));
+dragElement(document.getElementById("mydiv10-2"));
+dragElement(document.getElementById("mydiv10-3"));
+dragElement(document.getElementById("mydiv10-4"));
+
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+</script>
+
+</body>
+</html>
+
